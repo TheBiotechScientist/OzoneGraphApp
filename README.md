@@ -6,6 +6,12 @@ Aplicación de escritorio para la adquisión de datos del sensor de ozono BMT 96
 ## Adquisición
 ![](adquisicion.png)
 
+- La opción `Arduino` muestra el puerto `COM` detectado.
+
+- En el campo numérico de `Tiempo` se introduce el timepo totoal del proceso para detenerse automaáticamente, en la opción desplegable se puede elegir entre `min | seg`.
+
+- La `Ganancia` puede ser ajustada durante el proceso para conincidir con la señal del sensor `BMT 960`.
+
 - Una vez conectado el arduino a la computadora, y al hacer click en `Conectar`, el programa se conetará automaticamente al puerto `COM` detectado del Arduino. Se recomienda desconectar cualquier otro dispositivo `USB`.
 
 - El botón `Conectar` cambiará a `Iniciar` para comenzar la lectura de la señal.
