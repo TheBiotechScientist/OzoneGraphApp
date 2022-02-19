@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="4280174724" file="C:\Users\javne\Google Drive\Maestria\Tesis Maestria Javier\Tesis\Experimentation\Ozonaciones\Interfaz\ozonogramav2\OzonoGrama.prj" location="C:\Users\javne\Google Drive\Maestria\Tesis Maestria Javier\Tesis\Experimentation\Ozonaciones\Interfaz\ozonogramav2" name="OzonoGrama" preferred-package-location="C:\Users\javne\Google Drive\Maestria\Tesis Maestria Javier\Tesis\Experimentation\Ozonaciones\Interfaz\ozonogramav2" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
-    <param.appname>OzonoGrama</param.appname>
+  <configuration file="C:\Users\javne\Google Drive\OzonegraphApp\ozonegraph.prj" location="C:\Users\javne\Google Drive\OzonegraphApp" name="ozonegraph" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>OzoneGraph</param.appname>
     <param.icon />
     <param.icons />
     <param.version>2.1.0.9</param.version>
@@ -8,10 +8,10 @@
     <param.email>fmoralesm87@gmail.com</param.email>
     <param.company />
     <param.summary />
-    <param.description>Apicación para graficar la señal de la concentración de ozono del sensor BMT 960 por medio de Arduino.</param.description>
-    <param.screenshot>${PROJECT_ROOT}\ozonogramav2.1.png</param.screenshot>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\buildfiles\splash.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\OzonoGramav2.1\</param.installpath.string>
+    <param.installpath.string>\OzoneGraph\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo />
     <param.install.notes />
@@ -19,7 +19,7 @@
     <param.intermediate>${PROJECT_ROOT}\for_testing</param.intermediate>
     <param.files.only>${PROJECT_ROOT}\for_redistribution_files_only</param.files.only>
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.logdir>${PROJECT_ROOT}</param.logdir>
+    <param.logdir>${PROJECT_ROOT}\ozonegraph</param.logdir>
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
@@ -28,7 +28,7 @@
     <param.package.mcr>true</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
     <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
-    <param.package.mcr.name>ozonogramav2.1.0.9_installer</param.package.mcr.name>
+    <param.package.mcr.name>ozonegraph_v2.1.0.9_installer</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
     <param.windows.command.prompt>true</param.windows.command.prompt>
     <param.create.log>false</param.create.log>
@@ -49,11 +49,14 @@
       <param.email />
       <param.company />
       <param.summary />
+      <param.description />
       <param.guid />
+      <param.installpath.string />
       <param.installpath.combo />
       <param.logo />
       <param.install.notes />
       <param.target.install.notes />
+      <param.logdir />
       <param.enable.clean.build />
       <param.user.defined.mcr.options />
       <param.target.type />
@@ -69,20 +72,20 @@
       <param.example />
     </unset>
     <fileset.main>
-      <file>${PROJECT_ROOT}\ozonegraphv2.mlapp</file>
+      <file>${PROJECT_ROOT}\ozonegraph.mlapp</file>
     </fileset.main>
     <fileset.resources>
-      <file>${PROJECT_ROOT}\open_icon.png</file>
-      <file>${PROJECT_ROOT}\save_icon.png</file>
+      <file>${PROJECT_ROOT}\buildfiles\open_icon.png</file>
+      <file>${PROJECT_ROOT}\buildfiles\save_icon.png</file>
     </fileset.resources>
     <fileset.package />
     <fileset.depfun>
       <file>C:\Users\javne\Google Drive\Maestria\Tesis Maestria Javier\Tesis\Experimentacion\O3onaciones\ArduinoIO\arduino.m</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\for_testing" name="readme.txt" optional="true">C:\Users\javne\Google Drive\Maestria\Tesis Maestria Javier\Tesis\Experimentation\Ozonaciones\Interfaz\ozonogramav2\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\for_testing" name="OzonoGrama.exe" optional="false">C:\Users\javne\Google Drive\Maestria\Tesis Maestria Javier\Tesis\Experimentation\Ozonaciones\Interfaz\ozonogramav2\for_testing\OzonoGrama.exe</file>
-      <file location="${PROJECT_ROOT}\for_testing" name="splash.png" optional="false">C:\Users\javne\Google Drive\Maestria\Tesis Maestria Javier\Tesis\Experimentation\Ozonaciones\Interfaz\ozonogramav2\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\for_testing" name="readme.txt" optional="true">C:\Users\javne\Google Drive\OzonegraphApp\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\for_testing" name="OzoneGraph.exe" optional="false">C:\Users\javne\Google Drive\OzonegraphApp\for_testing\OzoneGraph.exe</file>
+      <file location="${PROJECT_ROOT}\for_testing" name="splash.png" optional="false">C:\Users\javne\Google Drive\OzonegraphApp\for_testing\splash.png</file>
     </build-deliverables>
     <workflow />
     <matlab>
