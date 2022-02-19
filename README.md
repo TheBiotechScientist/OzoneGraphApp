@@ -11,4 +11,4 @@ Una vez conectado el arduino a la computadora, y al hacer click en `Conectar`, e
 ## Visor de archivos
 ![](visor.png)
 
- Al finalizar se puede observar el ozonograma generado en la pestaña `Visor`, donde se muestra el ozono consumido a un flujo de $`0.5 L/min`$ con una concentración aproximada de $`35 g/Nm^3`$ (metros cúbicos Normales, a 0°C a nivel del mar). El ozonograma generado puede guardar en los formatos `.mat`, `.xlsx`, `.csv` y `.txt`.
+ Al finalizar se puede observar el ozonograma generado en la pestaña `Visor`, donde se muestra el ozono consumido a un flujo de $0.5 L/min$ con una concentración aproximada de $`35 g/Nm^3`$ (metros cúbicos Normales, a 0°C a nivel del mar). El ozonograma generado puede guardar en los formatos `.mat`, `.xlsx`, `.csv` y `.txt`.
