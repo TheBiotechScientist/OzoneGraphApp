@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="C:\Users\javne\Google Drive\OzonegraphApp\ozonegraph.prj" location="C:\Users\javne\Google Drive\OzonegraphApp" name="ozonegraph" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="123289345" file="C:\Users\javne\Google Drive\OzonegraphApp\ozonegraph.prj" location="C:\Users\javne\Google Drive\OzonegraphApp" name="ozonegraph" preferred-package-location="C:\Users\javne\Google Drive\OzonegraphApp" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>OzoneGraph</param.appname>
     <param.icon />
     <param.icons />
