@@ -15,7 +15,7 @@ Aplicación para la adquisión de datos del sensor de ozono BMT 960 por medio de
 
  - Al finalizar se puede observar el ozonograma generado en la pestaña `Visor`.
 
- - En el recuadro se muestra el ozono **Consumido**, **Residual** y **Total**, a un flujo de `0.5 L/min` con una concentración máxima aproximada de `35 g/Nm^3` (metros cúbicos Normales: 0°C a nivel del mar).
+ - En el recuadro se muestra el ozono **Consumido**, **Residual** y **Total** (a un flujo de `0.5 L/min` con una concentración máxima aproximada de `35 g/Nm^3`, gramos / metros cúbicos Normales: 0°C a nivel del mar).
 
  - La opción `Color de linea` da a elegir entre 7 colores de línea distintos.
 
