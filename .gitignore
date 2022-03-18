@@ -3,5 +3,5 @@ for_redistribution_files_only
 for_testing
 *.zip
 *.exe
-*.m
+multi_plots.m
 *.stg
